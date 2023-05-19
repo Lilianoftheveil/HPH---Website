@@ -1,0 +1,381 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+header .navbar{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 120px;
+    height: 100%;
+    margin: 0;
+}
+
+header .navbar .title h1{
+    font-size: 24px;
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    color: #100D09;
+    margin: 15px 30px 15px 60px;
+}
+
+header .navbar .title h1 a{
+    text-decoration: none;
+    color: #100D09;
+}
+
+header .navs ul li{
+    display: inline-block;
+    margin: 0 20px 0 20px;
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #100D09;
+}
+
+header .navs ul li a{
+    text-decoration: none;
+    font-style: normal;
+    color: #100D09;
+}
+
+main .produto_container{
+    width: 100%;
+    height: auto;
+    background:  #F4F7FC;
+    margin: 0;
+    padding: 20px;
+}
+
+main .outros_container p{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #52B5B2;
+    text-align: center;
+    margin-top: 20px;
+}
+
+main .descricao_container img{
+    width: 550px;
+    max-width: 100%;
+    height: 540px;
+    max-height: 100%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+main .descricao_container .price p{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #100D09;
+}
+
+main .descricao_container .descricao p{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #100D09;
+    text-align: justify;
+}
+
+main .descricao_container h2{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    color: #858BC1;
+}
+
+main .descricao_container .quantidade{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #100D09;
+}
+
+main .descricao_container .button{
+    width: 231px;
+    max-width: 100%;
+    height: 38px;
+    max-height: 100%; 
+    text-align: center;
+    background: #FABC51;
+    border-radius: 45px;
+}
+
+
+main .descricao_container .button p{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    display: inline-block;
+    line-height: 38px;
+}
+
+main .descricao_container .button p a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+main .descricao_container .button .fa-solid{
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+main .avaliacoes{
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    margin: 0;
+}
+
+main .avaliacoes h2{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    color: #100D09;
+}
+
+main .avaliacoes p{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    line-height: 2;
+}
+
+
+main .form{
+    background: #F4F7FC;
+    border-radius: 45px;
+    max-width: 100%;
+    height: auto;
+}
+
+main .form .form-label{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FABC51;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+main .form .form-control{
+    width: 700px;
+    max-width: 100%;
+    margin: auto;
+    margin-left: 50px;
+}
+
+main .form .btn{
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    background: #52B5B2;
+    border-radius: 45px;
+    transform: rotate(0.18deg);
+    margin-left: 50px;
+    margin-top: 20px;
+    border: none;
+}
+
+main .form .btn p{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+main .form .btn a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+main .outros_produtos{
+    padding: 50px;
+    background-color: #F4F7FC;
+    width: 100%;
+}
+
+main .outros_produtos .col-sm{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+main .outros_produtos h3{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    color: #100D09;
+}
+
+main .outros_produtos img{
+    width: 300px;
+    max-width: 100%;
+    height: 225px;
+    max-height: 100%;
+}
+
+main .outros_produtos h2{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #858BC1;
+    margin-top: 20px;
+}
+
+main .outros_produtos p{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #100D09;
+    text-align: center;
+}
+
+main .outros_produtos .button{
+    width: 231px;
+    max-width: 100%;
+    height: 38px;
+    max-height: 100%; 
+    text-align: center;
+    background: #FABC51;
+    border-radius: 45px; 
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+main .outros_produtos .button p{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    display: inline-block;
+    line-height: 38px;
+}
+
+main .outros_produtos .button .fa-solid{
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.footer_container {
+    padding: 50px 0;
+    color: #f0f9ff;
+    background-color: #FABC51;
+}
+
+.footer_container h2 {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+ 
+.footer_container h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.footer_container .contatos p{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.footer_container .contatos a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+  
+.footer_container ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.footer_container ul a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+  
+  
+  @media (max-width:767px) {
+    .footer_container .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer_container .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer_container .item.text {
+      margin-bottom:0;
+    }
+  }
+
+  .footer_container .item.social {
+    text-align:right;
+  }
+  
+  @media (max-width:991px) {
+    .footer_container .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer_container .item.social > a {
+    font-size:20px;
+    width:40px;
+    height: 40px;
+ 
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    margin:0 8px;
+    color:#fff;
+  }
+  

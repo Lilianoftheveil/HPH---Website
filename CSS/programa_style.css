@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+header .navbar{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 120px;
+    height: 100%;
+    margin: 0;
+}
+
+header .navbar .title h1{
+    font-size: 24px;
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    color: #100D09;
+    margin: 15px 30px 15px 60px;
+}
+
+header .navbar .title h1 a{
+    text-decoration: none;
+    color: #100D09;
+}
+
+header .navs ul li{
+    display: inline-block;
+    margin: 0 20px 0 20px;
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #100D09;
+}
+
+header .navs ul li a{
+    text-decoration: none;
+    font-style: normal;
+    color: #100D09;
+}
+
+main .header_container{
+    width: 100%;
+    height: auto;
+    background: #52B5B2;
+    margin: 0;
+    padding: 20px;
+}
+
+main .header_container img{
+    width: 350px;
+    max-width: 100%;
+    height: 350px;
+    max-height: 100%;
+    border-radius: 0px 45px;
+    transform: rotate(-7.07deg);
+    margin: 0 0 0 50px;
+}
+
+main .header_container h2{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 2;
+    color: #FFFFFF;
+    margin: 40px 0 0 20px;
+    width: 650px;
+    max-width: 100%;
+}
+
+.incubados{
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    background: #F4F7FC;
+    margin: 0;
+}
+
+.incubados .incubados_register{
+    width: 100%;
+    height: auto;
+}
+
+.incubados .incubados_register p{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #100D09;
+    margin: 40px 0 40px 0;
+}
+
+
+.incubados .incubados_cards{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 40px;
+    margin-top: 10px;
+}
+
+.incubados_cards .card{
+    width: 330px;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0 0 20px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 45px;
+    padding: 30px;
+}
+
+
+.incubados .incubados_cards img{
+    width: 60px;
+    max-width: 100%;
+    border-radius: 45px;
+    background-color: #EE7675;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.incubados .incubados_cards h2{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #100D09;
+    margin: 20px 0 20px 0;
+}
+
+.incubados .incubados_cards p{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #100D09;
+}
+
+.incubados .incubados_cards p span{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #100D09;
+}
+
+.incubados .incubados_register .button{
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    background: #FABC51;
+    border-radius: 45px;
+    transform: rotate(0.18deg);
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    clear: both;  
+}
+
+.incubados .incubados_register .button p{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+    padding: 10px;
+}
+
+.incubados .incubados_register .button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer_container {
+    padding: 50px 0;
+    color: #f0f9ff;
+    background-color: #FABC51;
+}
+
+.footer_container h2 {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+ 
+.footer_container h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.footer_container .contatos p{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.footer_container .contatos a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+  
+.footer_container ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.footer_container ul a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+  
+  
+  @media (max-width:767px) {
+    .footer_container .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer_container .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer_container .item.text {
+      margin-bottom:0;
+    }
+  }
+
+  .footer_container .item.social {
+    text-align:right;
+  }
+  
+  @media (max-width:991px) {
+    .footer_container .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer_container .item.social > a {
+    font-size:20px;
+    width:40px;
+    height: 40px;
+ 
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    margin:0 8px;
+    color:#fff;
+  }
+  

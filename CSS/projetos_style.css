@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+header .navbar{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 120px;
+    height: 100%;
+    margin: 0;
+}
+
+header .navbar .title h1{
+    font-size: 24px;
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    color: #100D09;
+    margin: 15px 30px 15px 60px;
+}
+
+header .navbar .title h1 a{
+    text-decoration: none;
+    color: #100D09;
+}
+
+header .navs ul li{
+    display: inline-block;
+    margin: 0 20px 0 20px;
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #100D09;
+}
+
+header .navs ul li a{
+    text-decoration: none;
+    font-style: normal;
+    color: #100D09;
+}
+
+main .header_container{
+    width: 100%;
+    height: auto;
+    background: #52B5B2;
+    margin: 0;
+    padding: 20px;
+}
+
+main .header_container img{
+    width: 350px;
+    max-width: 100%;
+    height: 350px;
+    max-height: 100%;
+    border-radius: 0px 45px;
+    transform: rotate(-7.07deg);
+    margin: 0 0 0 50px;
+}
+
+main .header_container h2{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 2;
+    color: #FFFFFF;
+    margin: 80px 0 0 20px;
+    width: 650px;
+    max-width: 100%;
+}
+
+.nosso_impacto{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    margin: 0;
+}
+
+.nosso_impacto h2{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    color: #FABC51;
+    text-align: center;
+    margin: 60px 0 40px 0;
+}
+
+.nosso_impacto h3{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #100D09;
+    text-align: center;
+    margin: 40px 0 40px 0;
+}
+
+.nosso_impacto .impacto_cards{
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+.nosso_impacto .card{
+    background: #F4F7FC;
+    border-radius: 45px 0px;
+    transform: rotate(-0.5deg);
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    margin: 40px 20px 50px 25px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.nosso_impacto .impacto_cards p{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #100D09;
+    margin-left: 20px;
+}
+
+.nosso_impacto .impacto_cards span{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    color: #FABC51;
+}
+
+.incubados{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background: #F4F7FC;
+    margin: 0;
+}
+
+.incubados h2{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    color: #100D09;
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+.incubados h3{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #100D09;
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+.incubados .incubados_cards{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+.incubados_cards .card{
+    background-image: url("../imagens/imagens/incubados.png");
+    background-size: 100% 100%;
+    border-radius: 45px;
+    transform: rotate(-0.5deg);
+    width: 300px;
+    max-width: 100%;
+    height: 200px;
+    max-height: 100%;
+    margin: 20px 20px 50px 35px;
+    display: inline-block;
+    padding: 15px;
+}
+
+.incubados .incubados_cards p{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+.incubados .incubados_cards p a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer_container {
+    padding: 50px 0;
+    color: #f0f9ff;
+    background-color: #FABC51;
+}
+
+.footer_container h2 {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+ 
+.footer_container h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.footer_container .contatos p{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.footer_container .contatos a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+  
+.footer_container ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.footer_container ul a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+  
+  
+  @media (max-width:767px) {
+    .footer_container .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer_container .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer_container .item.text {
+      margin-bottom:0;
+    }
+  }
+
+  .footer_container .item.social {
+    text-align:right;
+  }
+  
+  @media (max-width:991px) {
+    .footer_container .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer_container .item.social > a {
+    font-size:20px;
+    width:40px;
+    height: 40px;
+ 
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    margin:0 8px;
+    color:#fff;
+  }
+  
+
